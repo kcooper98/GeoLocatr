@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">GeoLocatr</string>
+    <string name="label_coordinates">Current Location (Lat/Long)</string>
+    <string name="hint_coordinates">Current Location will be displayed here when it is retrieved</string>
+    <string name="label_address">Current Address</string>
+    <string name="hint_address">Current Address will be displayed here when it is retrieved</string>
+    <string name="menu_get_location">Get Location</string>
+    <string name="location_toast">We must access your location to plot where you are.</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="start_polling_label">Start Polling</string>
+    <string name="end_polling_label">Stop Polling</string>
+    <string name="notification_channel_name">GeoLocatr</string>
+    <string name="notification_channel_desc">Sends notifications with current location</string>
+    <string name="notification_channel_id">geoLocatrNotifyId</string>
+    <string name="notification_title">Got a New Location</string>
+    <string name="delete">Delete</string>
+</resources>
