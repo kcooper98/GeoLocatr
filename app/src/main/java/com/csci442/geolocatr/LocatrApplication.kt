@@ -1,6 +1,7 @@
 package com.csci442.geolocatr
 
 import android.app.Application
+import com.csci442.geolocatr.ui.settings.LocatrPreferences
 
 class LocatrApplication : Application() {
     companion object {
@@ -9,6 +10,9 @@ class LocatrApplication : Application() {
 
     override fun onCreate() {
         super.onCreate()
-        locatrSharedPreferences = LocatrPreferences(applicationContext)
+        locatrSharedPreferences =
+            LocatrPreferences(
+                applicationContext
+            )
     }
 }

@@ -155,7 +155,7 @@ class MapFragment : SupportMapFragment() {
                         )
                     weatherRequest.enqueue(object : Callback<OpenWeatherResponse> {
                         override fun onFailure(call: Call<OpenWeatherResponse>, t: Throwable) {
-                            Log.d(logTag, t.localizedMessage)
+                            Log.e(logTag, t.localizedMessage)
                         }
 
                         override fun onResponse(

@@ -56,7 +56,7 @@ class LocatrWorker(private val context: Context, workerParams: WorkerParameters)
 
                         // Create intent for new activity
                         val intent =
-                            LocatrActivity.createIntent(context, location).apply {
+                            DrawerActivity.createIntent(context, location).apply {
                                 flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
                             }
                         val pendingIntent = PendingIntent.getActivity(context, 0, intent, 0)

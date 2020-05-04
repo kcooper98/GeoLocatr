@@ -1,4 +1,4 @@
-package com.csci442.geolocatr
+package com.csci442.geolocatr.ui.settings
 
 import android.content.Context
 import android.content.SharedPreferences
@@ -19,7 +19,6 @@ class LocatrPreferences(context: Context) {
             putBoolean(PREFS_POLLING_KEY, value)
             commit()
         }
-    // Had to switch jvmTarget to 1.8, ask in comments why
 
 
 }
